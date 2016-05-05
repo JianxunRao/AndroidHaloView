@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <declare-styleable name="HaloBackground">
+        <attr name="halo_color" format="color"/>
+        <attr name="halo_radius" format="dimension"/>
+        <attr name="halo_duration" format="integer"/>
+        <attr name="halo_amount" format="integer"/>
+        <attr name="halo_width_in" format="dimension"/>
+        <attr name="halo_width_out" format="dimension"/>
+        <attr name="halo_scale" format="float"/>
+    </declare-styleable>
+
+</resources>
